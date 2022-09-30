@@ -1,0 +1,93 @@
+
+/***************** 550px**********/
+@media(max-width:35em){
+    p {
+     font-size: 0.8rem;
+    }
+
+.primary-header{
+    font-size: 2.8rem;
+}
+.section_logo{
+    width:25rem;
+
+}
+
+/**************************/
+/****** testimonial section******/
+/**************************/
+
+.teatimonial{
+    margin: 8rem 2rem;
+    gap: 3rem;
+}
+.testimni-img{
+    max-width: 20rem;
+    height: 10rem;
+}
+.prog-testimoni{
+    margin-top: 1rem;
+    font-size: 0.8rem;
+}
+.btn-testimoni,
+.footer-btn{
+     margin-top: 2rem;
+     padding: 0.8rem 1rem;
+}
+
+/**************************/
+/****** Gallray section******/
+/**************************/
+.gallray-section{
+    background-color: antiquewhite;
+    margin: 1rem 2rem;
+    text-align: center;
+    max-width: 50rem;
+}
+.header-testimoni{
+    margin-bottom: 2rem;
+}
+.grid-testimoni{
+    width: 105rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3,1fr);
+    column-gap: 0.3rem;
+}
+.imgRect{
+    width: 13rem;
+    height: 8rem;
+}
+.img1{
+    height: 13rem;
+    width: 8rem;
+}
+.grid_picture{
+    gap: 2rem;
+}
+
+/**************************/
+/****** Footer section******/
+/**************************/
+
+.footer{
+    background-color:dodgerblue;
+    padding: 1rem 4rem;
+    color: #fff;
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 0.5rem;
+    justify-content: space-between;
+}
+
+.label,.footer-btn
+{
+    padding: 0.5rem 1.5rem;
+}
+h1{
+    font-size: 1.4rem;
+}
+
+
+}
